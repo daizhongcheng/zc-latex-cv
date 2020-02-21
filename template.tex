@@ -1,0 +1,140 @@
+
+\documentclass[12pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyfoot{}
+\cfoot{ \thepage\ / \pageref{LastPage}}
+%\chead{ \thepage\ / \pageref{LastPage}}
+\pagenumbering{roman}
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{blue}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+\name{Zhongcheng}{Dai}
+%\title{universität duisburg-essen}
+\address{Kommandantenstr.57}{Duisburg 47057}
+\phone[mobile]{015166267483}
+\email{zhongcheng.dai@outlook.com}
+%\social[twitter]{www.seccsc.com}
+\homepage{www.seccsc.com}
+\photo[80pt][0.4pt]{zc.jpg}      
+\quote{"The only way to do great work is to love what you do." - Steve Jobs}
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+\begin{document}
+\makecvtitle
+\section{Ausbildung}
+\cventry{2017--2019}{Master of Engineering in Automation and Control Engineering}{Universität Duisburg-Essen}{}{Elektrotechnik und informationstechnik}{Automatisierungstechnik und komplexe Systeme} 
+\cventry{2016--2017}{Deutsch lernen}{Communikation Akoun \& Scholten}{}{}{}
+\cventry{2011--2016}{Bachelor's Degree in Electrical Engineering and Automation}{Shandong University of Science and Technology}{}{}{Fakultät für Informations- und Elektrotechnik}
+\vspace{0.35cm}
+\section{Hauptkurs und Abschlussarbeit}
+\cventry{2017-2019}{Eine Fehlererkennung mit SVM-Technik basierend auf $T^2$-Statistik und Riemannschen Mannigfaltigkeiten
+}{}{}{}{
+\begin{itemize}
+    \item Robust Control Theory
+    \item Prozessautomatisierung
+    \item Nonlinear Control Systems
+    \item Theorie statistischer Signale
+    \item Mehrgrößen Regelungstechnik
+    \item State and Parameter Estimation
+    \item Modelling and Simulation of Dynamic Systems
+    \item Fehlerdiagnose und Fehlertoleranz in technischen System
+\end{itemize}
+}
+
+%\subsection{Work Experience}
+
+%\cventry{2018--2019}{Porter}{Kunes Country Automotive Group}{Woodstock, IL}{}{}
+
+%\cventry{2017--2018}{Chef}{Culver's}{Rockford, IL}{}{}
+
+%\cventry{2017}{Christmas Tree Farm Sales}{Nature's Best Tree Farm}{Poplar Grove, IL}{}{}
+
+%\cventry{2014--2016}{Pizza Cook}{Slice of Italy}{Rockford, IL}{}{}
+\vspace{0.35cm}
+\section{PC-Kenntnisse}
+\cvitem{\textbf{OS}}{Linux \hspace{1.3cm}Microsoft Windows}
+\cvitem{\textbf{Werkzeuge}}{Matlab/Simulink \hspace{1.3cm} Vim \hspace{1.3cm}Git}
+\cvitem{\textbf{P.sprache}}{C\hspace{1.3cm}Python\hspace{1.3cm}VHDL\hspace{1.3cm}\LaTeX\hspace{1.3cm}Markdown}
+
+\section{Praktikum und Projekt}
+%%%%%%%\end{itemize}}
+\cvitem{11.2018-01.2019}{Adaptive Steuerung des beheizten R\"uhrbeh\"alter
+\begin{itemize}
+\item Ziel: Steuerung f\"ur den F\"ullstand und den Temperatur. Verleichung des
+Resultats des PID-Reglers und des Adaptive Reglers
+\item Aufgabe: Entwurf des Reglers und Beweisung den Algorithmen auf dem
+Tank.
+\end{itemize}
+}
+\cvitem{07.2018-08.2018}{Pulsweitenmodulierte Regelung am Drei-Tank-System
+\begin{itemize}
+\item Ziel: Regelung des  F\"ullstand der Drei-Tank-System mit Hilfe der HiLSimulation
+und Pulsweitenmodulation (SPS)
+\item Aufgabe: Aufbau des mathematischen System. Entkoppelung und
+Linearisierung. Entwurf des PI-Reglers.
+\end{itemize}
+}
+\cvitem{07.2018-06.2018}{k\"unstliche neuronale Netz
+\begin{itemize}
+\item Ziel: Im ersten Teil der Praktikumsanleitung werden die mathematischen
+Grundlagen zum Verst\"andnis k\"unstlicher Neuronen und neuronaler Netze
+bereitgestellt. Im zweiten Teil wird das lernverfahren „Backpropagation“
+hergeleitet und die damit verbundenen Probleme erläutert. Im dritten Teil wird das Perzeptron beschrieben.
+\item Aufgabe: Handschriftliche Ziffern erkennen
+\end{itemize}
+}
+\cvitem{05.2017-06.2017}{Zustandsbeobachtung am Invertierten Pendel
+\begin{itemize}
+\item Ziel: Entwurf des Luenberger Beobachters. Einsetzung den Algorithmen zur Zustandsbeobachtung am Labormodell „invertiertes Pendel“.
+\item Aufgabe: Aufbau und Linearisierung des mathematischen Systems in
+Zustandsraumdarstellung. Entwurf des Reglers durch die Polvorgabe und
+das Vorfilter.
+\end{itemize}
+}
+\cvitem{04.2017-05.2017}{Zustands- und Fuzzy-Regelung an Ball und Wippe
+\begin{itemize}
+\item Ziel: Entwurf der Zustandsregelung, des Fuzzy-Reglers und des
+Reduzierbeobachters. 
+\item Aufgabe: Aufbau des mathematische Modells  Entwurf der Abtastregelung mit R\"uckf\"uhrung
+des Zustandsvektor und Zustandsbeobachter im Regelkreis.
+\end{itemize}
+}
+\cvitem{04.2014-05.2014}{Biped Robot Contest
+\begin{itemize}
+\item Ziel: Fahren geradeaus und biegen Sie an der angegebenen Stelle nach vorne ab. Der schnellste gewinnt.
+\item Aufgabe: Programmieren in C-Sprache, Entwerfen von Steuermodulen, Entwerfen von Antriebsmotormodulen.
+\end{itemize}
+}
+%\section{Relevant Classes}
+%%%\cvitem{Other}{Entrepreneurship}
+
+%\section{High School Activities}
+%%\cvlistitem{Varsity Football Kicker/Punter}
+
+%\section{College Activities}
+%\cvlistitem{Varsity Football Kicker}
+
+%\section{Community Activities}
+%%%\cvlistitem{Tutoring: Various Students in Sciene and Math}
+
+%\vspace{2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%\end{cvcolumns}
+
+\end{document}
+
+
+
+
+
+
+
+
+
